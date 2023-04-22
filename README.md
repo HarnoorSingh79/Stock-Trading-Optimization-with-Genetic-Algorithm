@@ -28,20 +28,21 @@ The project consists of the following steps:
 4. The script will download the historical stock data, run the genetic algorithm to optimize the moving average crossover strategy, and display the results, including the optimal short and long moving average periods and the annualized return of the optimized strategy.
 
 ## Results
-The output of the script will display the best trading strategy found by the genetic algorithm, along with the annualized return of that strategy:
+
+Here is plots that visualize the fitness evolution over generations and the stock prices along with the optimized moving averages.
+
+![Fitness Evolution](https://github.com/HarnoorSingh79/Stock-Trading-Optimization-with-Genetic-Algorithm/blob/main/Figure_1.png)
+
+![Stock Prices and Optimized Moving Averages](https://github.com/HarnoorSingh79/Stock-Trading-Optimization-with-Genetic-Algorithm/blob/main/Figure_2.png)
+
+This code will also have the text output. The text for our case is 
 
 Best strategy: Short period = 42, Long period = 173
 
 Optimized annualized return: 0.1118
 
-Here is what it means - 
+Here is what this output result means - 
 
 Best strategy: Short period = 42, Long period = 173: This indicates that the genetic algorithm has found the best moving average crossover trading strategy using a 42-day short moving average and a 173-day long moving average. In other words, the algorithm has determined that these periods for the short and long moving averages maximize the annualized return of the trading strategy based on the historical stock data.
 
-Optimized annualized return: 0.1118: This value represents the annualized return of the optimized trading strategy using the 42-day short moving average and the 173-day long moving average. The annualized return is a measure of the average yearly return of the trading strategy over the historical period. In this case, the optimized trading strategy has an annualized return of approximately 11.18%.
-
-In addition, the script will generate plots that visualize the fitness evolution over generations and the stock prices along with the optimized moving averages.
-
-![Fitness Evolution](https://github.com/HarnoorSingh79/Stock-Trading-Optimization-with-Genetic-Algorithm/blob/main/Figure_1.png)
-
-![Stock Prices and Optimized Moving Averages](https://github.com/HarnoorSingh79/Stock-Trading-Optimization-with-Genetic-Algorithm/blob/main/Figure_2.png)
+Optimized annualized return: 0.1118: This value represents the annualized return of the optimized trading strategy using the 42-day short moving average and the 173-day long moving average. The annualized return is a measure of the average yearly return of the trading strategy over the historical period. In this case, the optimized trading strategy has an annualized return of approximately 11.18%. 

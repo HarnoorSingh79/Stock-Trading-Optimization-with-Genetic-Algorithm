@@ -46,3 +46,7 @@ Here is what this output result means -
 Best strategy: Short period = 42, Long period = 173: This indicates that the genetic algorithm has found the best moving average crossover trading strategy using a 42-day short moving average and a 173-day long moving average. In other words, the algorithm has determined that these periods for the short and long moving averages maximize the annualized return of the trading strategy based on the historical stock data.
 
 Optimized annualized return: 0.1118: This value represents the annualized return of the optimized trading strategy using the 42-day short moving average and the 173-day long moving average. The annualized return is a measure of the average yearly return of the trading strategy over the historical period. In this case, the optimized trading strategy has an annualized return of approximately 11.18%. 
+
+## Disclaimer
+This project is for educational purposes only and should not be considered as investment advice. The performance of the trading strategy is based on historical data and may not accurately predict future results. Trading stocks carries risks, and you should consult a financial advisor before making any investment decisions.
+
